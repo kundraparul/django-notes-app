@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app/backend
 
-EXPOSE 8004
+EXPOSE 8009
 CMD python /app/backend/manage.py runserver 0.0.0.0:8009
 #RUN python manage.py migrate
 #RUN python manage.py makemigrations
